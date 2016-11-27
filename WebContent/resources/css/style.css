@@ -1,0 +1,14 @@
+@CHARSET "ISO-8859-1";
+
+
+ *{
+ font-family: sans-serif; 
+ 
+ }
+ 
+/* .img-button-help { background-image: url('../images/help.png') !important; } */
+
+.money {
+    background-image: url("../resources/img/money_icon.png") !important;
+    background-size: 100%;
+}

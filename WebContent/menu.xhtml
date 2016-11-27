@@ -1,0 +1,40 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+
+	
+
+	<h:form>
+		<p:growl id="messages" />
+
+		<p:menubar>
+			<p:submenu label="Creation" icon="ui-icon-pencil">
+				<p:menuitem value="Nouveau Conseiller" url="#" icon="ui-icon-circle-plus"/>
+				<p:menuitem value="Nouveau Client" url="#" icon="ui-icon-circle-plus" />
+				<p:separator />
+				<p:submenu label="Nouveau Compte" icon="ui-icon-circle-plus">
+					<p:menuitem value="Compte Courant" url="#" />
+					<p:menuitem value="Compte Epargne" url="#" />
+				</p:submenu>
+				
+			</p:submenu>
+
+			<p:submenu label="Consulter" icon="ui-icon-document">
+				<p:menuitem value="Tous les conseillers" url="#" icon="ui-icon-arrow-1-e" />
+				<p:menuitem value="Tous les clients" url="#" icon="ui-icon-arrow-1-e" />
+			</p:submenu>
+
+
+			<p:menuitem value="Virement" url="#"
+				icon="money" />
+
+			
+		</p:menubar>
+	</h:form>
+
+
+
+</ui:composition>

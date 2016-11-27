@@ -1,0 +1,23 @@
+@CHARSET "ISO-8859-1";
+.head {
+    background-image: url("/resources/img/bank.jpg") !important;
+}
+
+.head {
+	
+	font-size: 45;
+}
+
+.menubar {
+     background-image: url("../resources/img/banner.jpg") !important;
+     background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 100%;
+    height: 100px !important;
+}
+
+
+#nombanque {
+	
+	text-align: center important!;
+}
